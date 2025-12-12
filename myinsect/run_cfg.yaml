@@ -1,0 +1,33 @@
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_epsilon: 1.0e-08
+adam_weight_decay: 0.01
+cache_root: /tmp/kandinsky2
+device: cuda:0
+gradual_negatives: false
+img_size: 512
+inference_seeds:
+- 42
+- 500
+initializer_token: insect
+learnable_property: object
+learning_rate: 0.0001
+live_negatives: true
+log_embed_frequency: 250
+log_image_frequency: 250
+max_cosine_thr: 0.28
+min_cosine_thr: 0.2
+negative_classes: []
+negatives_early_stop: false
+num_workers: 0
+optimize_in_text_space: false
+output_dir: myinsect
+placeholder_token: myinsect
+pos_to_neg_loss_factor: 1.0
+positive_classes:
+- insect
+positive_weights:
+- 1.0
+seed: 0
+steps: 2500
+train_batch_size: 1

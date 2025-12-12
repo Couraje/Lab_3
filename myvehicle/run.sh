@@ -1,0 +1,1 @@
+python coach.py /home/stepa/dev/Python/ConceptLab/scripts/train.py --config configs/new_vehicle.yaml --output_dir=myvehicle
